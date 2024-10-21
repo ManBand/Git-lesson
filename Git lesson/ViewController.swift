@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         view.addSubview(label)
     }
 
-
+    func printHello() {
+        print("Hello, world!")
+    }
 }
 
