@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,11 +16,10 @@ class ViewController: UIViewController {
     }
     @IBAction func button(_ sender: UIButton) {
         label.text = "Hello, World!"
-
+        
+    }
     func printHello() {
         print("Hello, world!")
     }
-    
-
 }
 
