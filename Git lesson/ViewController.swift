@@ -14,7 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.addSubview(label)
     }
-
+    @IBAction func button(_ sender: UIButton) {
+        label.text = "Hello, World!"
+    }
+    
 
 }
 
