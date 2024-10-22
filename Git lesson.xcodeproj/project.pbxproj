@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B4816F832CC69B0000017B7E /* Exceptions for "Git lesson" folder in "Git lesson" target */ = {
+		B4816F832CC69B0000017B7E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B4816F5D2CC69AFE00017B7E /* Git lesson */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B4816F832CC69B0000017B7E /* Exceptions for "Git lesson" folder in "Git lesson" target */,
-			);
-			path = "Git lesson";
-			sourceTree = "<group>";
-		};
-		B4816F742CC69B0000017B7E /* Git lessonTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Git lessonTests";
-			sourceTree = "<group>";
-		};
-		B4816F7E2CC69B0000017B7E /* Git lessonUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Git lessonUITests";
-			sourceTree = "<group>";
-		};
+		B4816F5D2CC69AFE00017B7E /* Git lesson */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (B4816F832CC69B0000017B7E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Git lesson"; sourceTree = "<group>"; };
+		B4816F742CC69B0000017B7E /* Git lessonTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Git lessonTests"; sourceTree = "<group>"; };
+		B4816F7E2CC69B0000017B7E /* Git lessonUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Git lessonUITests"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +79,7 @@
 				B4816F5C2CC69AFE00017B7E /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		B4816F5C2CC69AFE00017B7E /* Products */ = {
 			isa = PBXGroup;
@@ -185,6 +171,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = ManBand;
 				TargetAttributes = {
 					B4816F5A2CC69AFE00017B7E = {
 						CreatedOnToolsVersion = 16.0;
@@ -200,6 +187,7 @@
 				};
 			};
 			buildConfigurationList = B4816F562CC69AFE00017B7E /* Build configuration list for PBXProject "Git lesson" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +196,6 @@
 			);
 			mainGroup = B4816F522CC69AFE00017B7E;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = B4816F5C2CC69AFE00017B7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -297,6 +284,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +313,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
