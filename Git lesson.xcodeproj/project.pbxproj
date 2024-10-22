@@ -41,8 +41,6 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B4816F5D2CC69AFE00017B7E /* Git lesson */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (B4816F832CC69B0000017B7E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Git lesson"; sourceTree = "<group>"; };
-		B4816F742CC69B0000017B7E /* Git lessonTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Git lessonTests"; sourceTree = "<group>"; };
-		B4816F7E2CC69B0000017B7E /* Git lessonUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Git lessonUITests"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				B4816F5D2CC69AFE00017B7E /* Git lesson */,
-				B4816F742CC69B0000017B7E /* Git lessonTests */,
-				B4816F7E2CC69B0000017B7E /* Git lessonUITests */,
 				B4816F5C2CC69AFE00017B7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,9 +125,6 @@
 			dependencies = (
 				B4816F732CC69B0000017B7E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B4816F742CC69B0000017B7E /* Git lessonTests */,
-			);
 			name = "Git lessonTests";
 			packageProductDependencies = (
 			);
@@ -151,9 +144,6 @@
 			);
 			dependencies = (
 				B4816F7D2CC69B0000017B7E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B4816F7E2CC69B0000017B7E /* Git lessonUITests */,
 			);
 			name = "Git lessonUITests";
 			packageProductDependencies = (
@@ -379,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -436,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
