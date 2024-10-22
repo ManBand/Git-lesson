@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     func printHello() {
         print("Hello, world!")
     }
+    func printHey() {
+        print("Hey guys!")
+    }
 }
 
